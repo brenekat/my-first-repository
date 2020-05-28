@@ -171,20 +171,3 @@ li.slick-active button {
     height: 800px;
         
 }
-
-.col-categoria1 {
-    display: inline;
-    position: absolute;
-    right: 0%;
-}
-
-.col-categoria2 {
-    display: inline;
-    position: absolute;
-}
-
-.col-categoria3 {
-    display: inline;
-    position: absolute;
-    left: 0%;
-}
