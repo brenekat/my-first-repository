@@ -79,6 +79,7 @@ main {
 .col-100 {
     width: 100%;
     float: left;
+    margin-left: 150px;
     position: relative;
     border-bottom: 3px solid #efefef;
     height: 80px;
@@ -106,7 +107,7 @@ button.slick-next {
     position: absolute;
     background-image: url(../img/next.png);
     top: 35%;
-    right: 14%;
+    right: 34%;
 }
 .slick-list {
     width: 100%!important;
@@ -214,3 +215,101 @@ h3 {
     width: 950px;
     left: 199px;
 }
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+width: 100%;
+display: inline-block;
+content: '';
+height: 70px;
+background: #eeeeee;
+} 
+.col-4 {
+float: left;
+width: 25%;
+position: relative!important;
+}
+
+.bloco-logos {
+height: 170px;
+margin-left:0px;
+}
+
+.bloco-logos img {
+margin-top: 50px;
+}
+
+.footer h3 {
+text-align: left;
+margin-top: 39px;
+}
+
+.footer {
+background-image: url('../img/footer.png');
+color: #ffffff;
+height: 330px;
+width: 900px;
+padding-left: 29px;
+margin-left:0px;
+}
+
+.footer-2 {
+background-image: url('../img/footer2.png');
+color: #c1c1c1;
+height: 90px;
+margin-left:0px;
+}
+
+
+.footer p {
+width: 90%;
+text-align: left;
+}
+
+.footer-2 p {
+padding: 10px;
+}
+
+.clock {
+color: #898989!important;
+}
+
+.clock:before {
+content: '';
+width:  15px;
+height: 15px;
+display: inline-block;
+background-image: url('../img/clock.png');
+float: left;
+background-repeat: no-repeat;
+padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+content: '';
+width:  17px;
+height: 24px;
+display: inline-block;
+float: left;
+background-repeat: no-repeat;
+padding-left: 5px;
+}
+.local:before {
+background-image: url('../img/local.png');
+}  
+.emailico:before {
+background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+background-image: url('../img/telefoneico.png');
+}  
