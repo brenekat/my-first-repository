@@ -93,7 +93,7 @@ button.slick-prev {
     background-color: transparent;
     position: absolute;
     background-image: url(../img/prev.png);
-    top: 35%;
+    top: 44%;
     left: 14%;
 }
 
@@ -106,7 +106,7 @@ button.slick-next {
     background-color: transparent;
     position: absolute;
     background-image: url(../img/next.png);
-    top: 35%;
+    top: 44%;
     right: 34%;
 }
 .slick-list {
@@ -139,7 +139,7 @@ li.slick-active button {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 45%;
+    left: 39%;
     top: 405px;
 }
 
@@ -258,7 +258,7 @@ margin-top: 39px;
 background-image: url('../img/footer.png');
 color: #ffffff;
 height: 330px;
-width: 900px;
+width: 882px;
 padding-left: 29px;
 margin-left:0px;
 }
@@ -267,6 +267,7 @@ margin-left:0px;
 background-image: url('../img/footer2.png');
 color: #c1c1c1;
 height: 90px;
+width: 911px;
 margin-left:0px;
 }
 
